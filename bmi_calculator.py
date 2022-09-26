@@ -96,6 +96,6 @@ Very severely obese, 40 and above, Very high risk'''
 if __name__ == '__main__':
     my_calculator = BMICalculator(_data, _table)
     print('--------\nCalculate the BMI (Body Mass Index) using Formula 1\n\n', my_calculator.my_bmi())
-    print('--------\nAll Status for each BMI Category\n\n', my_calculator.all_stats())
+    print('--------\nAll Stats for each BMI Category\n\n', my_calculator.all_stats())
     print('--------\nCount of all the overweights with BMI > 25 : ', my_calculator.count_overweight)
  
