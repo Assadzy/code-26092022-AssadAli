@@ -1,0 +1,10 @@
+--------
+Calculate the BMI (Body Mass Index) using Formula 1
+
+ [{'Gender': 'Male', 'HeightCm': 171, 'WeightKg': 96, 'BMI_Category': 'Moderately obese', 'BMI_Range': '30 - 34.9', 'Health_risk': 'Medium risk'}, {'Gender': 'Male', 'HeightCm': 161, 'WeightKg': 85, 'BMI_Category': 'Moderately obese', 'BMI_Range': '30 - 34.9', 'Health_risk': 'Medium risk'}, {'Gender': 'Male', 'HeightCm': 180, 'WeightKg': 77, 'BMI_Category': 'Normal weight', 'BMI_Range': '18.5 - 24.9', 'Health_risk': 'Low risk'}, {'Gender': 'Female', 'HeightCm': 166, 'WeightKg': 62, 'BMI_Category': 'Normal weight', 'BMI_Range': '18.5 - 24.9', 'Health_risk': 'Low risk'}, {'Gender': 'Female', 'HeightCm': 150, 'WeightKg': 70, 'BMI_Category': 'Moderately obese', 'BMI_Range': '30 - 34.9', 'Health_risk': 'Medium risk'}, {'Gender': 'Female', 'HeightCm': 167, 'WeightKg': 82, 'BMI_Category': 'Overweight', 'BMI_Range': '25 - 29.9', 'Health_risk': 'Enhanced risk'}]
+--------
+All Stats for each BMI Category
+
+ [{'Underweight': 0}, {'Normal weight': 2}, {'Overweight': 1}, {'Moderately obese': 3}, {'Severely obese': 0}, {'Very severely obese': 0}]
+--------
+Count of all the overweights with BMI > 25 :  4
